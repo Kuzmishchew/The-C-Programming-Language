@@ -23,16 +23,15 @@ int main()
 		if (c != '\n') {
 			line[i] = c;
 			++i;
-		} else if (i > 80) {
-			printLine(line);
-			for (i = 0; i < MAXLENGTH; ++i)
-				line[i] = 0;
-			i = 0;
 		} else {
+			line[i] = '\0';
+			if (i > 79) {
+				printLine(line);
+			}
 			for (i = 0; i < MAXLENGTH; ++i)
-				line[i] = 0;
+					line[i] = 0;
 			i = 0;
-		}	
+		} 	
 }
 
 void printLine(char line[])
