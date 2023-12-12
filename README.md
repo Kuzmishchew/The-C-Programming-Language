@@ -12,8 +12,9 @@
 ### Оглавление
 
 [Глава 2](#chapter-2) \
-&nbsp;&nbsp;&nbsp;&nbsp;[2.1 Имена переменных](#variable-names) \	
-&nbsp;&nbsp;&nbsp;&nbsp;[2.2 Типы данных и их размеры](#data-types-and-sizes) \
+&nbsp;&nbsp;&nbsp;&nbsp;[2.1 Имена переменных](#variable-names)	
+
+&nbsp;&nbsp;&nbsp;&nbsp;[2.2 Типы данных и их размеры](#data-types-and-sizes)
 	
 ### <a id="chapter-2"></a>Глава 2 - Типы данных, операторы и выражения.
 
